@@ -1,6 +1,5 @@
 package net.Estudos.ExercicioWilson;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main{
@@ -33,7 +32,7 @@ public class Main{
             navegadorMenuPrincipal = leitura.nextInt();
             if (navegadorMenuPrincipal > 0 &&  navegadorMenuPrincipal < 4){
                 if (navegadorMenuPrincipal == 1) {
-                    MenuNavegacao.exibeMenuCategorias();
+                    MenuNavegacaoCategorias.exibeMenuCategorias();
                 }
                 if (navegadorMenuPrincipal == 2) {
                     System.out.println(menuProdutos);

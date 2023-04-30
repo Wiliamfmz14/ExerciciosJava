@@ -2,7 +2,7 @@ package net.Estudos.ExercicioWilson;
 
 import java.util.Scanner;
 
-public class MenuNavegacao {
+public class MenuNavegacaoCategorias {
     public static void exibeMenuCategorias() {
         var leitura = new Scanner(System.in);
         String navegaMenuCategorias = "1";

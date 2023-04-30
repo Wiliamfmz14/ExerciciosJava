@@ -3,10 +3,16 @@ package net.Estudos.ExercicioWilson;
 import java.util.Scanner;
 
 public class Produto {
-    private String nome;
     private Categoria categoria;
+    private String nome;
     private double preco;
     private int quantidade;
+
+    public Produto(Categoria categoria, String nome, double preco) {
+        this.categoria = categoria;
+        this.nome = nome;
+        this.preco = preco;
+    }
 
 
     //GETTERS
